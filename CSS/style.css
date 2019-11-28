@@ -1,0 +1,55 @@
+*{
+	margin: 0 auto;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+header{
+	background-image: url(../Resource/background4.jpeg);
+	/*bao trùm hết trang web*/
+	background-size: cover;
+	background-position: center;
+	/*chiếm 100% trang web*/
+	height: 100vh;
+
+	background-attachment: fixed;
+}
+.main-nav{
+	float: right;
+	list-style: none;
+	margin-top: 50px;
+	margin-right: 55px;
+
+}
+
+.main-nav li a{
+	text-decoration: none;
+	color: white;
+	font-size: 110%;
+	font-weight: 700;
+}
+
+.main-nav li {
+	display: inline-block;
+	margin-right: 30px;
+}
+
+.logo{
+	width: 350px;
+	float: left;
+	margin-left: 70px;
+	margin-top: -50px;
+}
+
+
+.clearfix::after{
+	content: " ";
+	display: table;
+	clear: both;
+}
+/*chu' y'*/
+.row{
+	width: 1140px;
+	margin: 0 auto;
+}
